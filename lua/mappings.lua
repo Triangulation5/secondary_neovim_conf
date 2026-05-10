@@ -12,3 +12,6 @@ map("i", "jk", "<ESC>")
 map("n", "<C-t>", function()
     require "nvchad.themes".open { border = true, style = "compact" } -- compact/flat/bordered
 end, {})
+
+map("n", "<leader>w", ":write<CR>")
+map("n", "<leader>q", ":quit<CR>")
