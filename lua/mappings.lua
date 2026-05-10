@@ -13,5 +13,6 @@ map("n", "<C-t>", function()
     require "nvchad.themes".open { border = true, style = "compact" } -- compact/flat/bordered
 end, {})
 
-map("n", "<leader>w", ":write<CR>")
-map("n", "<leader>q", ":quit<CR>")
+map("n", "<leader>w", ":write<CR>", { desc = "write"})
+map("n", "<leader>q", ":quit<CR>", { desc = "quit"})
+map("n", "<leader>st", ":Telescope builtin<CR>", { desc = "telescope search builtin"})
