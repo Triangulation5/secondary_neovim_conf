@@ -37,9 +37,10 @@ M.ui = {
  },
 }
 
- M.cheatsheet = {
-   theme = "simple", -- simple/grid
- }
+M.cheatsheet = {
+    theme = "simple", -- simple/grid
+}
 
+vim.opt.shell = "powershell"
 
 return M
