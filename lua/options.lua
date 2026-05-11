@@ -1,6 +1,8 @@
 require "nvchad.options"
 
-vim.o.mouse = ""
+-- Disable the mouse, good for beginners learning how use Neovim
+-- vim.o.mouse = ""
+
 vim.o.shortmess = vim.o.shortmess .. "I"
 vim.o.number = true
 vim.o.relativenumber = true

@@ -24,13 +24,13 @@ M.nvdash = { load_on_startup = true }
 
 M.ui = {
     statusline = {
-        theme = "minimal", -- default/vscode/vscode_colored/minimal
-        separator_style = "round", -- default/round/block/arrow
+        theme = "default", -- default/vscode/vscode_colored/minimal
+        separator_style = "block", -- default/round/block/arrow
     },
 
      cmp = {
       lspkind_text = true,
-      style = "atom_colored", -- default/flat_light/flat_dark/atom/atom_colored
+      style = "atom", -- default/flat_light/flat_dark/atom/atom_colored
       format_colors = { 
          tailwind = false,
       },
@@ -38,7 +38,7 @@ M.ui = {
 }
 
 M.cheatsheet = {
-    theme = "simple", -- simple/grid
+    theme = "grid", -- simple/grid
 }
 
 vim.opt.shell = "powershell"
