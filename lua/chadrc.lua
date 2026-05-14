@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "gruvbox",
+	theme = "rosepine",
     transparency = true,
 
 	-- hl_override = {
@@ -15,7 +15,19 @@ M.base46 = {
 	-- },
 }
 
-M.nvdash = { load_on_startup = true }
+M.nvdash = { 
+    load_on_startup = true,
+
+    -- Add this to the dashboard later 
+    --               __       __
+    --               '.'--.--'.-'
+    -- .,_------.___,   \' r'
+    -- ', '-._a      '-' .'
+    --  '.    '-'Y \._  /
+    --    '--;____'--.'-,
+    --     /..'       '''
+}
+
 -- M.ui = {
 --       tabufline = {
 --          lazyload = false
@@ -26,7 +38,7 @@ M.ui = {
     tabufline = {
         enabled = true,
         lazyload = true,
-        treeOffsetFt = "", -- must be in ui, not base46
+        treeOffsetFt = "", 
         order = { "buffers", "tabs", "btns" },
         bufwidth = 21,
     },

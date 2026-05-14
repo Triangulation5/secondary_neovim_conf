@@ -10,7 +10,7 @@ map("i", "jk", "<ESC>")
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
 map("n", "<C-t>", function()
-    require "nvchad.themes".open { border = true, style = "compact" } -- compact/flat/bordered
+    require "nvchad.themes".open { border = true, style = "bordered" } -- compact/flat/bordered
 end, {})
 
 map("n", "<leader>w", ":write<CR>", { desc = "write"})
