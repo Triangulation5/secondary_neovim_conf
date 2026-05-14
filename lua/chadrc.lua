@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "rosepine",
+	theme = "gruvbox",
     transparency = true,
 
 	-- hl_override = {
@@ -40,20 +40,25 @@ M.ui = {
         lazyload = true,
         treeOffsetFt = "", 
         order = { "buffers", "tabs", "btns" },
+        -- Use this if you like your nvim-tree on the left side (make sure the change it in the lua/plugins/init.lua)
+        -- treeOffsetFt = "NvimTree",
+        -- order = { "treeOffset", "buffers", "tabs", "btns" },
         bufwidth = 21,
     },
 
     statusline = {
-        theme = "default", -- default/vscode/vscode_colored/minimal
-        separator_style = "block", -- default/round/block/arrow
+        theme = "minimal", -- default/vscode/vscode_colored/minimal
+        separator_style = "default", -- default/round/block/arrow
     },
 
-     cmp = {
-      lspkind_text = true,
-      style = "atom", -- default/flat_light/flat_dark/atom/atom_colored
-      format_colors = { 
-         tailwind = false,
-      },
+    telescope = { style = "bordered" }, -- borderless/bordered
+
+    cmp = {
+        lspkind_text = true,
+        style = "atom", -- default/flat_light/flat_dark/atom/atom_colored
+        format_colors = { 
+        tailwind = false,
+    },
  },
 }
 
@@ -61,6 +66,6 @@ M.cheatsheet = {
     theme = "grid", -- simple/grid
 }
 
-vim.opt.shell = "powershell"
+vim.o.shell = "powershell"
 
 return M
