@@ -23,6 +23,14 @@ M.nvdash = { load_on_startup = true }
 -- }
 
 M.ui = {
+    tabufline = {
+        enabled = true,
+        lazyload = true,
+        treeOffsetFt = "", -- must be in ui, not base46
+        order = { "buffers", "tabs", "btns" },
+        bufwidth = 21,
+    },
+
     statusline = {
         theme = "default", -- default/vscode/vscode_colored/minimal
         separator_style = "block", -- default/round/block/arrow

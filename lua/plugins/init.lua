@@ -14,7 +14,7 @@ return {
   },
 
   -- test new blink
-  -- { import = "nvchad.blink.lazyspec" },
+  { import = "nvchad.blink.lazyspec" },
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
@@ -25,4 +25,13 @@ return {
   -- 		},
   -- 	},
   -- },
+
+  {
+      "nvim-tree/nvim-tree.lua",
+      opts = {
+        view = {
+          side = "right",
+        },
+      },
+  }
 }
