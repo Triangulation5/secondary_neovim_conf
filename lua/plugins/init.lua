@@ -33,5 +33,5 @@ return {
           side = "right",
         },
       },
-  }
+  },
 }
