@@ -34,4 +34,28 @@ return {
         },
       },
   },
+
+  {
+    "chomosuke/typst-preview.nvim",
+    cmd = {
+        "TypstPreviewToggle",
+        "TypstPreview",
+        "TypstPreviewStop",
+    },
+    ft = "typst",
+    version = "1.*",
+    build = function()
+      require("typst-preview").update()
+    end,
+  }, 
+
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = {
+      "MarkdownPreviewToggle",
+      "MarkdownPreview",
+      "MarkdownPreviewStop",
+    },
+    ft = { "markdown" },
+  },
 }
