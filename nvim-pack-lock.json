@@ -1,0 +1,29 @@
+{
+  "plugins": {
+    "mason.nvim": {
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "mini.nvim": {
+      "rev": "05a80b0340a92136a93ab04346cf97de3f165948",
+      "src": "https://github.com/echasnovski/mini.nvim"
+    },
+    "nvim-lspconfig": {
+      "rev": "d5b6e3db4c17b0146f63a2fc47e2027a754b2cb1",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "oil.nvim": {
+      "rev": "b73018b75affd13fa38e2fc94ef753b465f770d7",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "typst-preview.nvim": {
+      "rev": "1c2e19486397be1c580b560fc50ee36abe329c46",
+      "src": "https://github.com/chomosuke/typst-preview.nvim"
+    },
+    "vague.nvim": {
+      "rev": "24cd29d277bf5259ab347c49d223d8cfb9057565",
+      "src": "https://github.com/vague-theme/vague.nvim",
+      "version": "'24cd29d'"
+    }
+  }
+}
